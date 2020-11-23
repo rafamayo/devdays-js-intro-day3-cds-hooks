@@ -1,0 +1,30 @@
+{
+  "name": "dev-days-cds-hooks-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "./node_modules/node/bin/node ./node_modules/nodemon/bin/nodemon.js server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "node": "14.15.0",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fhirclient": "^2.3.10",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.4",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.6",
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "keywords": []
+}
